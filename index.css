@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+}
+
+
+.certificate{
+    width: 1080px;
+    height: 700px;
+    border: 1PX solid black;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.topborder{
+    height: 45px;
+    width: 100%;
+    background-color: goldenrod;
+    margin-bottom: 50px;
+}
+
+
+
+
+.bottomborder { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 62px;
+    background-color: goldenrod;
+    border-top: 18px solid goldenrod;
+}
+
+
+.header{
+    color: blue;
+    text-align: center;
+    position: absolute;
+    /* height: 10px; */
+    top: 103px;
+    left: 400px;
+    padding: 4px;
+}
+
+heading1{
+    font-family: Georgia, serif;
+    font-size: 29px;
+    margin-bottom: 13px; 
+}
+heading2{
+    font-family: Georgia, serif;
+    font-size: 23px;
+    margin-bottom: 13px; 
+}
+heading3{
+    font-family: Georgia, serif;
+    font-size: 27px;
+    margin-bottom: 13px; 
+}
+heading4{
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-bottom: 13px; 
+}
+
+.student_detail{
+    width: 76%;
+    margin: 38px auto 0;
+    color: #111;
+    font-size: 16px;
+}
+
+.row{
+    display: flex;
+    align-items: center; 
+    gap: 12px;
+    margin-bottom: 17px; 
+    min-height: 22px;
+}
+
+.label { 
+    white-space: nowrap; 
+    min-width: 95px;
+}
+
+#underline{
+    display: inline-block; 
+    text-align: center; 
+    border-bottom: 2px solid #333; 
+    padding: 0 5px 2px;
+    flex: 1;
+}
+
+.footer { 
+    position: absolute; 
+    bottom: 101px; 
+    left: 19rem; 
+    right: 15rem; 
+    display: flex; 
+    margin: 5px;
+    padding: 20px;
+    justify-content:space-between; 
+    align-items: flex-end; 
+    color: #152784; 
+    font-family: Georgia, serif;
+    
+}
+
+#school-address { 
+    text-align: center; 
+}
+
+#school-address strong { 
+    font-size: 15px; 
+}
+#school-address{
+    position: relative;
+    margin-right: 30px;
+    text-align: center; 
+    right: 140px;
+    
+}
+#signature{
+    position: relative;
+    text-align: center;
+    left: 140px;
+}
+
